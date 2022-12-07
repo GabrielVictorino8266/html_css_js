@@ -15,6 +15,6 @@ Os principais tópicos abordados durante o desenvolvimento foram:
 - Css
 ## Screenshots
 
-![preview](./.github/preview.png)
+![preview](./github/preview.png)
 
 [🔗 Clique aqui para acessar](https://gabrielvictorino8266.github.io/html_css_js/Registration_Form_Project/)
