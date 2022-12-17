@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    /* Para realizar a importação da fonte, primeiro é necessário baixá-las. */
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    /* Display flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    line-height: 10px;
+    flex-direction: column;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(114, 14, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 600px;
+}
+
+/* Muda a cor dos links acima no header. */
+a{
+    color: white;
+}
+
+/* Efeito ao passar o mouse por cima */
+a:hover{
+    color: rgb(114, 14, 201);
+    /* Aplica uma transição(Suavidade no hover em todos os itens) */
+    transition: 0.3s all;
+}
+
+#btnSubscribe{
+    border: 2px solid rgb(114, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#btnSubscribe:hover{
+    background-color: rgb(114, 14, 201);
+    color: white;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 10px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(114, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
