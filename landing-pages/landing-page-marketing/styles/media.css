@@ -11,7 +11,7 @@
     }
 
     h2{
-        font-size: 38px;
+        font-size: 32px;
     }
 
     form{
@@ -28,6 +28,47 @@
     }
 
     ul{
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1097px){
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    form{
+        margin:  0 auto;
+        width: 100%
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
         text-align: center;
     }
 }
