@@ -1,6 +1,6 @@
 # Hi, I'm Gabriel! See my project below  👋
 
-## Web Form Registration
+## Landing Page | Marketing Criativo
 
 Este projeto visa a prática de html e css básicos para a construção de sites.
 
