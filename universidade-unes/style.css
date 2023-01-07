@@ -1,0 +1,45 @@
+/* Css da página */
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+:root {
+  --text-color: black;
+  --title-color: brown;
+}
+
+#container {
+  border: 1px solid red;
+}
+
+#header {
+  border: 1px solid yellow;
+  display: flex;
+}
+#header ul {
+  border: 1px solid red;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+#header ul,
+li{
+  gap: 16px;
+}
+
+#header a{
+  font-weight: 400;
+}
+
+#header img {
+  border: 1px solid red;
+  width: 200px;
+}
